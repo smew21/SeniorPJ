@@ -23,7 +23,7 @@
         android:id="@+id/bt_register"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/orange"
+        android:background="@color/colorPrimary"
         android:text="REGISTER"
         android:textColor="@color/white" />
 

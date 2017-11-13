@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         splashTimer.schedule(new TimerTask() {
             @Override
             public void run() {
-                MainActivity.this.finish();
+//                MainActivity.this.finish();
                 startActivity(new Intent(MainActivity.this, Main_Activity_Regis_LogIn.class));
             }
         }, DELAY);
